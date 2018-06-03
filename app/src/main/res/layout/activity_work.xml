@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    tools:context="com.example.anthony.travisano_boces1.WorkActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/taskpic" />
+
+    <TextView
+        android:id="@+id/txtWorkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task" />
+
+    <TextView
+        android:id="@+id/txtLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Time"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/txtLbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Working On Task"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Chronometer
+        android:id="@+id/chronometerWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Finsihed!"
+        android:background="@drawable/btn_style"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+</LinearLayout>

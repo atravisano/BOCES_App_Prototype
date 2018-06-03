@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--button has rounded corner with white outline and blue fill-->
+    <item>
+        <shape>
+            <!--<solid android:color="#0079f2" />-->
+            <stroke
+                android:color="#ffffff"
+                android:width="3dp" />
+            <corners
+                android:radius="3dp" />
+            <padding
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
